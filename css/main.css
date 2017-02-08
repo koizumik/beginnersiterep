@@ -114,10 +114,51 @@ h2 {
 	padding-left: 35px;
 }
 
+@media (max-width: 1131px) {
+	.main {
+		overflow: scroll;
+	}
+}
 
 
+@media (max-width: 702px) {
+	.navigation ul {
+		font-size: 12px;
+	}
+}
 
+@media (max-width: 624px) {
+	.navigation ul {
+		display: inline-block;
+		margin: 0 auto;
+	}
 
+	.navigation li {
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 470px) {
+	div.sidebar {
+		font-size: 12px;
+	}
+
+	.sidebar ul {
+		padding-left: 8px;
+		list-style-type: none;
+	}
+}
+
+@media (max-width: 437px) {
+
+	div.navigation {
+		text-align: center;
+	}
+
+	.navigation li {
+		padding-left: 5px;
+	}
+}
 
 
 
